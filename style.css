@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+*{
+    font-family: 'Cabin', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    font-size: 50px;
+    border-radius: 5px;
+    padding-right: 35px;
+    background-color: white;
+}
+.imgProduto{
+    width: 250px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.imgProduto:hover{
+    transform: scale(1.1); 
+    transition: 1s;
+}
+.nomeLista{
+    margin-bottom: 20px;
+    font-size: 70px;
+}
+
+.valorLista{
+    color: red;
+    margin-bottom: 10px;
+}
+
+.liquidLista{
+    font-size: 30px;
+    border: none;
+    padding-inline: 90px;
+    padding-block: 10px;
+    border-radius: 10px;
+    background-color: rgb(160, 237, 181);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.distribuidorLista{
+    font-size: 25px;
+}
+
+.novaLista{
+    color: rgb(0, 190, 0);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.distribuidorLista{
+    margin-bottom: 20px;
+}
